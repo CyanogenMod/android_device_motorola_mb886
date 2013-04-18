@@ -2,6 +2,6 @@
 
 
 export VENDOR=motorola
-export DEVICE=xt925
+export DEVICE=mb886
 
 ../vanquish-common/extract-files.sh $@

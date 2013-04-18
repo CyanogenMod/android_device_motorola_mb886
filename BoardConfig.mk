@@ -1,9 +1,9 @@
 -include device/motorola/vanquish-common/BoardConfig.mk
 
 # inherit from the proprietary version
--include vendor/motorola/xt925/BoardConfigVendor.mk
+-include vendor/motorola/mb886/BoardConfigVendor.mk
 
-LOCAL_PATH := device/motorola/xt925
+LOCAL_PATH := device/motorola/mb886
 
 # Inline kernel building
 TARGET_KERNEL_SOURCE := kernel/motorola/msm8960-common

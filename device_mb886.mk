@@ -1,6 +1,6 @@
 $(call inherit-product, device/motorola/vanquish-common/device.mk)
 
-LOCAL_PATH := device/motorola/xt925
+LOCAL_PATH := device/motorola/mb886
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
 	LOCAL_KERNEL := $(LOCAL_PATH)/kernel
@@ -8,7 +8,7 @@ else
 	LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
 
-# xt925 specific overlay
+# mb886 specific overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 PRODUCT_LOCALES := en_US
@@ -32,4 +32,4 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/kernelmodules/prima_wlan.ko:system/lib/modules/prima/prima_wlan.ko
 
-$(call inherit-product-if-exists, vendor/motorola/xt925/xt925-vendor.mk)
+$(call inherit-product-if-exists, vendor/motorola/mb886/mb886-vendor.mk)

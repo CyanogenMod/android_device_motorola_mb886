@@ -2,4 +2,3 @@
 # bin/filename
 etc/OperatorPolicy.xml
 etc/UserPolicy.xml
-etc/firmware/melfas_45_7_15.fw

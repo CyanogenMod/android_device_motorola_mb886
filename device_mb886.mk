@@ -49,10 +49,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.telephony.ril.v3=signalstrength
 
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/config/gps.conf:system/etc/gps.conf \
-
-#safestrap support
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/kernelmodules/prima_wlan.ko:system/lib/modules/prima/prima_wlan.ko
+	$(LOCAL_PATH)/config/gps.conf:system/etc/gps.conf
 
 $(call inherit-product-if-exists, vendor/motorola/mb886/mb886-vendor.mk)

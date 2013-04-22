@@ -4,4 +4,4 @@
 export VENDOR=motorola
 export DEVICE=mb886
 
-../vanquish-common/extract-files.sh $@
+../msm8960-common/extract-files.sh $@

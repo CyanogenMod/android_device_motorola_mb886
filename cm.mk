@@ -1,7 +1,7 @@
 ## Specify phone tech before including full_phone
 $(call inherit-product, vendor/cm/config/gsm.mk)
 
-$(call inherit-product, device/motorola/vanquish-common/cm.mk)
+$(call inherit-product, device/motorola/msm8960-common/cm.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 720

@@ -1,4 +1,7 @@
 TARGET_USES_MOTOROLA_COMMON_LIBLIGHT:=true
+TARGET_USES_MOTOROLA_COMMON_IDC:=true
+TARGET_USES_MOTOROLA_COMMON_KEYCHARS:=true
+TARGET_USES_MOTOROLA_COMMON_KEYLAYOUT:=true
 
 $(call inherit-product, device/motorola/vanquish-common/device.mk)
 

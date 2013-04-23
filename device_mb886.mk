@@ -1,3 +1,5 @@
+TARGET_USES_MOTOROLA_COMMON_LIBLIGHT:=true
+
 $(call inherit-product, device/motorola/vanquish-common/device.mk)
 
 LOCAL_PATH := device/motorola/mb886

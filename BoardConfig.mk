@@ -1,4 +1,4 @@
--include device/motorola/vanquish-common/BoardConfig.mk
+-include device/motorola/msm8960-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
 -include vendor/motorola/mb886/BoardConfigVendor.mk

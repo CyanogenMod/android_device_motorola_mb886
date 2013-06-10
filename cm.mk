@@ -14,7 +14,7 @@ PRODUCT_NAME := cm_mb886
 
 $(call inherit-product, device/motorola/mb886/full_mb886.mk)
 
-PRODUCT_BUILD_PROP_OVERRIDES += /
+PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_BRAND=motorola \
     PRODUCT_NAME=MB886_att \
     BUILD_PRODUCT=qinara \

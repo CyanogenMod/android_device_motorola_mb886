@@ -71,4 +71,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 $(call inherit-product, device/motorola/msm8960-common/idc/idc.mk)
 $(call inherit-product, device/motorola/msm8960-common/keychars/keychars.mk)
 $(call inherit-product, device/motorola/msm8960-common/keylayout/keylayout.mk)
-$(call inherit-product-if-exists, vendor/motorola/mb886/mb886-vendor.mk)
+$(call inherit-product, vendor/motorola/mb886/mb886-vendor.mk)

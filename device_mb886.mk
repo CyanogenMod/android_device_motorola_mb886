@@ -43,7 +43,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 #telephony
 PRODUCT_PROPERTY_OVERRIDES += \
 	telephony.lteOnGsmDevice=1 \
-	ro.telephony.ril.v3=signalstrength
+	telephony.lteOnCdmaDevice=0 \
+	ro.telephony.default_network=9
 
 $(call inherit-product, device/motorola/qcom-common/idc/idc.mk)
 $(call inherit-product, device/motorola/qcom-common/keychars/keychars.mk)

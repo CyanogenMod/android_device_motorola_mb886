@@ -1,0 +1,4 @@
+#!/system/bin/sh
+
+echo 0 > /sys/module/ct406/parameters/prox_enable
+echo 1 > /sys/module/ct406/parameters/prox_enable

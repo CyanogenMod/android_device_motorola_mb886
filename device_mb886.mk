@@ -46,6 +46,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	telephony.lteOnCdmaDevice=0 \
 	ro.telephony.default_network=9
 
+# Proximity Sensor Fix
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/init.d/99prox_fix:system/etc/init.d/99prox_fix
+
 $(call inherit-product, device/motorola/qcom-common/idc/idc.mk)
 $(call inherit-product, device/motorola/qcom-common/keychars/keychars.mk)
 $(call inherit-product, device/motorola/qcom-common/keylayout/keylayout.mk)

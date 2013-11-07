@@ -28,6 +28,9 @@
 
 LOCAL_PATH := device/motorola/mb886
 
+# Use common media profile
+TARGET_USES_MOTOROLA_MSM8960_COMMON_MEDIA_PROFILES := true
+
 # Use common resources
 TARGET_USES_MOTOROLA_MSM8960_COMMON_LIBLIGHT := true
 

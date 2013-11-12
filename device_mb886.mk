@@ -36,6 +36,9 @@ PRODUCT_LOCALES += xhdpi
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
+# Use common media profile
+TARGET_USES_MOTOROLA_MSM8960_COMMON_MEDIA_PROFILES := true
+
 # QCOM Display
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=320

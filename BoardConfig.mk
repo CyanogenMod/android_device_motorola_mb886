@@ -28,9 +28,6 @@
 
 LOCAL_PATH := device/motorola/mb886
 
-# Use common resources
-TARGET_USES_MOTOROLA_MSM8960_COMMON_LIBLIGHT := true
-
 #bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 

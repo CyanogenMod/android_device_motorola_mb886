@@ -1,6 +1,5 @@
 /*
- * Copyright (C) 2012 The Android Open Source Project
- * Copyright (C) 2012 The CyanogenMod Project <http://www.cyanogenmod.org>
+ * Copyright (C) 2015 The CyanogenMod Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,5 +18,18 @@
 #define _BDROID_BUILDCFG_H
 
 #define BTM_DEF_LOCAL_NAME   "Motorola Atrix HD"
+#define BTA_DISABLE_DELAY 1000 /* in milliseconds */
+#define BLUETOOTH_QTI_SW TRUE
+#define BLUETOOTH_QCOM_LE_INTL_SCAN TRUE
+#define BTC_INCLUDED TRUE
+
+
+#define BTA_GATT_INCLUDED TRUE
+#define BLE_INCLUDED TRUE
+#define ATT_INCLUDED TRUE
+#define GATT_CLIENT_ENABLED
+#define SMP_INCLUDED TRUE
+#define GAP_INCLUDED TRUE
+
 
 #endif

@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2013 The CyanogenMod Project
+# Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -26,11 +26,11 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mb886 device
-$(call inherit-product, device/motorola/mb886/device_mb886.mk)
+$(call inherit-product, device/motorola/mb886/device.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mb886
 PRODUCT_NAME := full_mb886
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := MB886
+PRODUCT_MODEL := ATRIX HD
 PRODUCT_MANUFACTURER := motorola

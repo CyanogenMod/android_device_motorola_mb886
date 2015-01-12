@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2013 The CyanogenMod Project
+# Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -28,10 +28,11 @@
 
 LOCAL_PATH := device/motorola/mb886
 
-#bluetooth
+# Assert
+TARGET_OTA_ASSERT_DEVICE := mb886,qinara
+
+# Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 
 #TWRP
 DEVICE_RESOLUTION := 720x1280
-
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 4294967296

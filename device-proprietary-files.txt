@@ -1,4 +1,7 @@
-# proprietary file list
-# bin/filename
-lib/libqmiservices.so
-lib/libril-qc-qmi-1.so
+# device specific proprietary file list
+
+# Audio
+lib/libaudcal.so
+
+# Touch frimware
+etc/firmware/melfas_45_7_15.fw
